@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: #0a0a09;
+    font-size: 4rem;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+
+.new_news::after{
+    content: "NEW";
+    color: rgb(125, 196, 243);
+    font-size: 10px;
+    vertical-align: super;
+    
+}
+
+.container div:nth-of-type(even) {
+    background-color: rgb(198, 234, 248);
+    color: rgb(33, 37, 41);
+    font-size: 15px;
+    font-family: 'Times New Roman' , Times, serif;
+}
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #eeb63e;
+
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .Links {
+     margin-bottom: 50px; /*отступ сверху */
+}
+
+footer .Links > a {
+     color: #636B6f;
+     padding: 0 25px;
+     font-size: 13px;
+     font-weight: 600;
+     letter-spacing: 1rem;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+
+.copyright {
+     color: rgb(108, 117, 125);
+     font-family: 'Times New Roman', Times, serif;
+}
